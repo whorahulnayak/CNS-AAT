@@ -25,7 +25,7 @@ export default function Login() {
   }
 
   const sendrequest = async () => {
-    await axios.post("http://localhost:5000/cns/login", {
+    await axios.post("https://cns-aat.herokuapp.com/cns/login", {
       email: user.email,
       password: user.password,
     }).then((res) => {
