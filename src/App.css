@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+::selection {
+    background: #432818;
+    color: #EEE4E1;
+}
+
+body {
+    background-color: #eee4e1;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #284b63;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+
+}
+h1{
+    margin-top: 20px;
+}
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-brand a {
+    color: #fff
+}
+
+.carousal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    
+}
+.carousel-caption>h3{
+    color:#faedcd;
+}
+.carousel-item > img{
+    margin-top: 8px;
+    width:100%;
+    height: 85vh;
+    object-fit: cover;
+    object-position: center;
+}
+.hyperlink{
+    color: #432818;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.rand{
+    margin-bottom: 20px;
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+.homepage-banner {
+    background-size: contain;
+    max-width: 1200px;
+    height: 50vh;
+}
+
+.scramble-text {
+    font-weight: 400;
+    font-size: 1.50rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    white-space: nowrap;
+}
+
+.recipe-container {
+    margin-top: 70px;
+}
+
+.diff {
+    color: #781717 !important;
+}
+
+.container-new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.btn-primary {
+    background-color: #5a189a;
+    border-color: #5a189a;
+}
+
+.btn-primary:hover {
+    background-color: #9d4edd;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    /* number of lines to show */
+    line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+
+.card-image {
+    height: 250px;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .home-container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .homepage-banner {
+        height: 50vh !important;
+    }
+
+    .card-image {
+        height: auto;
+    }
+
+    .single-container {
+        width: 90%;
+    }
+    .about-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+.dish-container {
+    width: auto;
+    height: auto;
+    background-color: #eee4e1;
+}
+
+.dish-banner {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    transition: all ease-in-out;
+}
+
+.dish-banner:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.dish-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #432818;
+}
+
+.signout {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-container {
+    width: 90%;
+}
+
+.single-container img {
+    width: 100%;
+    height: 325px;
+}
+
+.card-body {
+    width: 100%;
+}
