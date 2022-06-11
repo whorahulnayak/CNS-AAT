@@ -12,8 +12,6 @@ export default function Login() {
   function handleSubmit(event) {
     event.preventDefault();
     console.log(user);
-    // on sending request is user exists in database then go to '/'
-    // else show error message
     sendrequest().then((res) => {
       if (user) {
         window.location.href = "/";
